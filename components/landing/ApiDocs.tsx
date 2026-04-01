@@ -76,7 +76,7 @@ export default function ApiDocs() {
         <div className="flex items-center gap-3 mt-6">
           <div className="flex items-center gap-2 border border-white/8 rounded-full px-4 py-1.5">
             <div className="w-1.5 h-1.5 rounded-full bg-green-500/70" />
-            <span className="text-white/35 text-xs">Base URL: helious.vercel.app</span>
+            <span className="text-white/35 text-xs">Base URL: heliouss.vercel.app</span>
           </div>
           <span className="text-white/20 text-xs border border-white/8 rounded-full px-4 py-1.5">
             v1.0 — Ethereum Mainnet
@@ -91,7 +91,7 @@ export default function ApiDocs() {
           Future versions will support token-based auth for higher limits.
         </p>
         <CodeBlock
-          code={`// No auth header needed during beta\nfetch('https://helious.vercel.app/api/analyze', {\n  method: 'POST',\n  headers: { 'Content-Type': 'application/json' },\n  body: JSON.stringify({ address: '0x...' })\n})`}
+          code={`// No auth header needed during beta\nfetch('https://heliouss.vercel.app/api/analyze', {\n  method: 'POST',\n  headers: { 'Content-Type': 'application/json' },\n  body: JSON.stringify({ address: '0x...' })\n})`}
           language="javascript"
           id="auth"
           copied={copied}
